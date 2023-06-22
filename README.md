@@ -8,5 +8,5 @@ A simple database of mock user info, coupled with a Ruby script for verifying, e
 
 * This project uses a SQLite database that stores username and password information.
 * The Ruby script allows for retrieving user information, updating passwords, and verifying entered passwords.
-* Passwords are stored securely using encryption (in our case: bcrypt) to enhance security.
+* Passwords are stored encrypted using the `bcrypt` gem (see: string after username 'billie_joe|' in Sqlite3 screencap). 
 * The project showcases basic database operations and password management functionality.
