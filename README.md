@@ -1,6 +1,8 @@
 # database-fun
 
-A simple database of mock user info, coupled with a Ruby script for verifying, encrypting, and updating data.
+A simple database of mock user info, coupled with a Ruby script for efficiently verifying, encrypting, and updating data.
+
+![Screenshot from 2023-06-25 00-33-35](https://github.com/erikamaker/database-fun/assets/118931925/9459e778-eb6c-41a3-a916-8e686e75a4d5)
 
 
 # Project Summary
@@ -10,7 +12,6 @@ A simple database of mock user info, coupled with a Ruby script for verifying, e
 * Passwords are stored encrypted using the `bcrypt` gem (see: string after username 'billie_joe|' in Sqlite3 screencap).
 * The project showcases basic database operations and password management functionality.
 * The project uses efficient data retrieval practices, leveraging Big-0 Notation (see below).
-
 
 
 # Big-0 Notation
